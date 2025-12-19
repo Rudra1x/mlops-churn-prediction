@@ -1,0 +1,23 @@
+artifact_path: file:D:/QUANTUM COMPUTING/Industry Projects/Data Analysis and Data
+  Science/mlops-churn-prediction/mlruns/0/models/m-776af3922d8f41e88eaf9cf2dffa3292/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.7.0
+model_id: m-776af3922d8f41e88eaf9cf2dffa3292
+model_size_bytes: 109661
+model_uuid: m-776af3922d8f41e88eaf9cf2dffa3292
+prompts: null
+run_id: 1154845e8db4464ab065285b310aa4fa
+utc_time_created: '2025-12-19 07:58:52.638255'
