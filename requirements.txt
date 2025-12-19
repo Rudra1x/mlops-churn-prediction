@@ -8,3 +8,4 @@ mlflow
 dvc
 pytest
 python-dotenv
+prometheus-client
